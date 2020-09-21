@@ -1,0 +1,6 @@
+## Execute pacman without password
+aurto ALL=(ALL) NOPASSWD: /usr/sbin/pacman
+
+## Needed to initialize chroot environment without password
+aurto ALL=(ALL) NOPASSWD: /bin/install
+aurto ALL=(ALL) NOPASSWD: /usr/sbin/mkarchroot
